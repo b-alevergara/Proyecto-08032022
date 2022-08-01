@@ -1,0 +1,96 @@
+.grid__main{
+    max-width: $full;
+    margin: $spacing-large;
+    padding: $spacing-xlarge;
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-xlarge;
+
+    .main__seccionUno{
+
+        .main__seccionUno__cuadroUno{
+            padding-top: $spacing-large;
+            padding-bottom: $spacing-large ;
+            display: flex;
+            flex-direction: column;
+            background-color: $secondary;
+            border-radius: 15px;
+            align-items: center;
+            row-gap: $spacing-xlarge;
+
+            .main__seccionUno__cuadroUno__img{
+                height: auto;
+                width: $full;
+                max-width: 600px;
+                border-radius: 7%;
+            }
+
+            .main__seccionUno__cuadroUno__descripcion{
+                display: inline-flex;
+            }
+            }
+    }
+    .main__seccionDos{
+
+        .main__seccionDos__cuadroDos{
+            padding-top: $spacing-large;
+            padding-bottom: $spacing-xlarge;
+            display: flex;
+            flex-direction: column;
+            background-color: $primary-lighter;
+            border-radius: 15px;
+            align-items: center;
+            row-gap: $spacing-xlarge;
+
+            animation: crecer 2s infinite;
+            animation-delay: 1s;
+
+            .main__seccionDos__cuadroDos__img{
+                height: auto;
+                width: $full;
+                max-width: 600px;
+                border-radius: 5%;
+            }
+        }
+    }
+    .main__seccionTres{
+
+        .main__seccionTres__cuadroTres{
+            padding-top: $spacing-large;
+            padding-bottom: $spacing-large;
+            background-color: $secondary;
+            border-radius: 15px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            animation: crecer 2s infinite;
+
+            .main__seccionTres__cuadro__img{
+                height: auto;
+                width: $full;
+                max-width: 600px;
+            }
+
+            .main__seccionTres__cuadroTres__img{
+                height: auto;
+                width: $full;
+                max-width: 250px;
+                max-height: 400px;
+                border-style:outset;
+            }
+        }
+    }
+    .main__seccionCuatro{
+        padding-top: $spacing-large;
+
+        &__seccionCuatro__cuadroCuatro{
+            border-radius: 15px;
+            row-gap: $spacing-xlarge;
+            }
+
+    }
+}
+

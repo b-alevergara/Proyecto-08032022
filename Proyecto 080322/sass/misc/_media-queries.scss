@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px) {
+    body{ 
+        background-color: $primary-lighter;
+        font-family: $font-alternative; 
+        
+        h3{
+            font-size: $mediaq;
+        }
+        p{
+            font-size: $mediaq;
+        }
+        label{
+            font-size: $xsmall;
+            color: $mediaQcolor;
+        }
+    }
+}
